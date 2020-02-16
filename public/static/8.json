@@ -1,0 +1,93 @@
+{
+    "name": "字体(Font)",
+    "items": [
+        {
+            "name": "font",
+            "mode": ["font-style", "font-variant", "font-weight", "font-stretch", "font-size", "line-height", "font-family", "caption", "icon", "menu", "message-box", "small-caption", "status-bar"],
+            "content": [
+                "指定文本字体样式",
+                "指定文本是否为小型的大写字母",
+                "指定文本字体的粗细",
+                "指定文本字体拉伸变形",
+                "指定文本字体尺寸",
+                "指定文本字体的行高",
+                "指定文本使用某个字体或字体序列",
+                "使用有标题的系统控件的文本字体（如按钮，菜单等）",
+                "使用图标标签的字体",
+                "使用菜单的字体",
+                "使用信息对话框的文本字体",
+                "使用小控件的字体",
+                "使用窗口状态栏的字体"
+            ]
+        },
+        {
+            "name": "font-style",
+            "mode": ["normal", "italic", "oblique"],
+            "content": [
+                "指定文本字体样式为正常的字体",
+                "指定文本字体样式为斜体。对于没有设计斜体的特殊字体，如果要使用斜体外观将应用oblique",
+                "指定文本字体样式为倾斜的字体。人为的使文字倾斜，而不是去选取字体中的斜体字"
+            ]
+        },
+        {
+            "name": "font-variant",
+            "mode": ["normal", "small-caps"],
+            "content": [
+                "正常的字体",
+                "小型的大写字母字体"
+            ]
+        },
+        {
+            "name": "font-weight",
+            "mode": ["normal", "bold", "bolder", "lighter", "<integer>"],
+            "content": [
+                "正常的字体。相当于数字值400", 
+                "粗体。相当于数字值700。",
+                "定义比继承值更重的值",
+                "定义比继承值更轻的值",
+                "用数字表示文本字体粗细。取值范围：100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900"
+            ]
+        },
+        {
+            "name": "font-size",
+            "mode": ["<absolute-size>", "<relative-size>", "<length>", "<percentage>"],
+            "content": [
+                "根据对象字号进行调节。以 medium 作为基础参照，xx-small相当于medium 3/5 (h6)，x-small: 3/4，small: 8/9 (h5)，medium: 1 (h4)，large: 6/5 (h3)，x-large: 3/2 (h2)，xx-large: 2/1 (h1)",
+                "相对于父对像中字号进行相对调节。使用成比例的em单位计算。",
+                "用长度值指定文字大小。不允许负值。",
+                "用百分比指定文字大小。其百分比取值是基于父对象中字体的尺寸。不允许负值。"
+            ]
+        },
+        {
+            "name": "font-family",
+            "mode": ["<family-name>", "<generic-family>"],
+            "content": [
+                "字体名称。按优先顺序排列。以逗号隔开。如果字体名称包含空格或中文，则应使用引号括起",
+                "字体序列名称。"
+            ]
+        },
+        {
+            "name": "font-stretch",
+            "mode": ["normal", "ultra-condensed", "extra-condensed", "condensed", "semi-condensed", "semi-expanded", "expanded", "extra-expanded", "ultra-expanded"],
+            "content": [
+                "正常文字宽度",
+                "比正常文字宽度窄4个基数。",
+                "比正常文字宽度窄3个基数。",
+                "比正常文字宽度窄2个基数。",
+                "比正常文字宽度窄1个基数。",
+                "比正常文字宽度宽1个基数。",
+                "比正常文字宽度宽2个基数。",
+                "比正常文字宽度宽3个基数。",
+                "比正常文字宽度宽4个基数。"
+            ]
+        },
+        {
+            "name": "font-size-adjust",
+            "mode": ["none", "<number>"],
+            "content": [
+                "不保留首选字体的 x-height",
+                "定义字体的 aspect 值。"
+            ]
+        }
+    ]
+}

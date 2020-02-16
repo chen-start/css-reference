@@ -1,0 +1,316 @@
+{
+    "querySearch": [
+        {
+            "id": "1",
+            "name": "定位",
+            "definition": "Position",
+            "specific": [
+                "position",
+                "z-index",
+                "top",
+                "right",
+                "bottom",
+                "left",
+                "clip"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "布局",
+            "definition": "Layout",
+            "specific": [
+                "display",
+                "float",
+                "clear",
+                "visibility",
+                "overflow"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "尺寸",
+            "definition": "Dimension",
+            "specific": [
+                "width",
+                "min-width",
+                "max-width",
+                "leight",
+                "min-height",
+                "max-height"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "边距",
+            "definition": "Margins and Paddings",
+            "specific": [
+                "margin",
+                "padding"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "背景",
+            "definition": "Backgrounds",
+            "specific": [
+                "background",
+                "background-color",
+                "background-image",
+                "background-repeat",
+                "background-arrachment",
+                "background-position",
+                "background-origin",
+                "background-clip",
+                "background-size"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "边框",
+            "definition": "Borders",
+            "specific": [
+                "border",
+                "border-width",
+                "border-style",
+                "border-color",
+                "border-radius",
+                "box-shadow",
+                "border-image",
+                "border-image-source",
+                "border-image-slice",
+                "border-image-width",
+                "border-image-outset",
+                "border-image-repeat"
+            ]
+        },
+        {
+            "id": "7",
+            "name": "颜色",
+            "definition": "Color",
+            "specific": [
+                "color",
+                "opacity"
+            ]
+        },
+        {
+            "id": "8",
+            "name": "字体",
+            "definition": "Font",
+            "specific": [
+                "font",
+                "font-style",
+                "font-variant",
+                "font-weight",
+                "font-size",
+                "font-family",
+                "font-stretch",
+                "font-size-adjust"
+            ]
+        },
+        {
+            "id": "9",
+            "name": "文本",
+            "definition": "Text",
+            "specific": [
+                "text-transform",
+                "white-space",
+                "tab-size",
+                "word-break",
+                "word-wrap/overflow-wrap",
+                "text-align",
+                "text-align-last",
+                "text-justify",
+                "word-spacing",
+                "letter-spacing",
+                "text-indent",
+                "vertical-align",
+                "line-height",
+                "text-size-adjust"
+            ]
+        },
+        {
+            "id": "10",
+            "name": "文本装饰",
+            "definition": "Text Decoration",
+            "specific": [
+                "text-decoration",
+                "text-decoration-line",
+                "text-decoration-color",
+                "text-decoration-style",
+                "text-decoration-skip",
+                "text-underline-position",
+                "text-shadow"
+            ]
+        },
+        {
+            "id": "11",
+            "name": "书写模式",
+            "definition": "Writing Modes",
+            "specific": [
+                "direction",
+                "unicode-bidi",
+                "writing-mode"
+            ]
+        },
+        {
+            "id": "12",
+            "name": "列表",
+            "definition": "List",
+            "specific": [
+                "list-style",
+                "list-style-image",
+                "list-style-position",
+                "list-style-type"
+            ]
+        },
+        {
+            "id": "13",
+            "name": "表格",
+            "definition": "Table",
+            "specific": [
+                "table-layout",
+                "border-collapse",
+                "border-spacing",
+                "caption-side",
+                "empty-cells"
+            ]
+        },
+        {
+            "id": "14",
+            "name": "内容",
+            "definition": "Content",
+            "specific": [
+                "content",
+                "counter-increment",
+                "counter-reset",
+                "quotes"
+            ]
+        },
+        {
+            "id": "15",
+            "name": "用户界面",
+            "definition": "User Interface",
+            "specific": [
+                "appearance",
+                "text-overflow",
+                "outline",
+                "outline-width",
+                "outline-style",
+                "outline-color",
+                "outline-offset",
+                "nav-index",
+                "nav-up",
+                "nav-right",
+                "nav-down",
+                "nav-left",
+                "cursor",
+                "zoom",
+                "box-sizing",
+                "resize",
+                "ime-mode",
+                "user-select",
+                "pointer-events"
+            ]
+        },
+        {
+            "id": "16",
+            "name": "多列",
+            "definition": "Multi-column",
+            "specific": [
+                "columns",
+                "column-width",
+                "column-count",
+                "column-gap",
+                "column-rule",
+                "column-rule-width",
+                "column-rule-style",
+                "column-rule-color",
+                "column-span",
+                "column-fill",
+                "column-break-before",
+                "column-break-after",
+                "column-break-inside"
+            ]
+        },
+        {
+            "id": "17",
+            "name": "伸缩盒",
+            "definition": "Flexible Box",
+            "specific": [
+                "flex",
+                "flex-grow",
+                "flex-shrink",
+                "flex-basis",
+                "flex-flow",
+                "flex-direction",
+                "flex-wrap",
+                "align-content",
+                "align-items",
+                "align-self",
+                "justify-content",
+                "order"
+            ]
+        },
+        {
+            "id": "18",
+            "name": "转换",
+            "definition": "Transform",
+            "specific": [
+                "transform",
+                "transform-origin",
+                "transform-style",
+                "perspective",
+                "perspective-origin",
+                "backface-visibility"
+            ]
+        },
+        {
+            "id": "19",
+            "name": "过渡",
+            "definition": "Transition",
+            "specific": [
+                "transition",
+                "transition-property",
+                "transition-duration",
+                "transition-timing-function",
+                "transition-delay"
+            ]
+        },
+        {
+            "id": "20",
+            "name": "动画",
+            "definition": "Animation",
+            "specific": [
+                "animation",
+                "animation-name",
+                "animation-duration",
+                "animation-timing-function",
+                "animation-delay",
+                "animation-iteration-count",
+                "animation-direction",
+                "animation-play-state",
+                "animation-fill-mode"
+            ]
+        },
+        {
+            "id": "21",
+            "name": "媒体查询",
+            "definition": "Media Queries",
+            "specific": [
+                "width",
+                "height",
+                "device-width",
+                "device-height",
+                "orientation",
+                "aspect-ratio",
+                "device-aspect-ratio",
+                "color",
+                "color-index",
+                "monochrome",
+                "resolution",
+                "scan",
+                "grid"
+            ]
+        }
+    ]
+}

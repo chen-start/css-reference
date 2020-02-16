@@ -1,0 +1,56 @@
+{
+    "name": "列表(List)",
+    "items": [
+        {
+            "name": "list-style",
+            "mode": ["<' list-style-type '>", "<' list-style-position '>", "<' list-style-image '>"],
+            "content": [
+                "设置或检索对象的列表项所使用的预设标记",
+                "设置或检索作为对象的列表项标记如何根据文本排列",
+                "设置或检索作为对象的列表项标记的图像"
+            ]
+        },
+        {
+            "name": "list-style-image",
+            "mode": ["none", "<url>"],
+            "content": [
+                "不指定图像，默认内容标记将被 <' list-style-type '> 代替。",
+                "使用绝对或相对地址指定列表项标记图像。如果图像地址无效，默认内容标记将被 <' list-style-type '> 代替。"
+            ]
+        },
+        {
+            "name": "list-style-position",
+            "mode": ["outside", "inside"],
+            "content": [
+                "列表项目标记放置在文本以外，且环绕文本不根据标记对齐",
+                "列表项目标记放置在文本以内，且环绕文本根据标记对齐"
+            ]
+        },
+        {
+            "name": "list-style-type",
+            "mode": ["disc", "circle", "square", "decimal", "lower-roman", "upper-roman", "lower-alpha", "upper-alpha", "none", "armenian", "cjk-ideographic", "georgian", "lower-greek", "hebrew", "hiragana", "hiragana-iroha", "katakana", "katakana-iroha", "lower-latin", "upper-latin"],
+            "content": [
+                "实心圆(CSS1)", 
+                "空心圆(CSS1)",
+                "实心方块(CSS1)", 
+                "阿拉伯数字(CSS1)",
+                "小写罗马数字(CSS1)",
+                "大写罗马数字(CSS1)",
+                "小写英文字母(CSS1)",
+                "大写英文字母(CSS1)",
+                "不使用项目符号(CSS1)",
+                "传统的亚美尼亚数字(CSS2)",
+                "浅白的表意数字(CSS2)",
+                "传统的乔治数字(CSS2)",
+                "基本的希腊小写字母(CSS2)",
+                "传统的希伯莱数字(CSS2)",
+                "日文平假名字符(CSS2)",
+                "日文平假名序号(CSS2)",
+                "日文片假名字符(CSS2)",
+                "日文片假名序号(CSS2)",
+                "小写拉丁字母(CSS2)",
+                "大写拉丁字母(CSS2)"
+            ]
+        }
+    ]
+}

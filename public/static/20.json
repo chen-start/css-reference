@@ -1,0 +1,92 @@
+{
+    "name": "动画(Animation)",
+    "items": [
+        {
+            "name": "animation",
+            "mode": ["<' animation-name '>", "<' animation-duration '>", "<' animation-timing-function '>", "<' animation-delay '>", "<' animation-iteration-count '>", "<' animation-direction '>", "<' animation-fill-mode '>", "<' animation-play-state '>"],
+            "content": [
+                "检索或设置对象所应用的动画名称",
+                "检索或设置对象动画的持续时间",
+                "检索或设置对象动画的过渡类型",
+                "检索或设置对象动画延迟的时间",
+                "检索或设置对象动画的循环次数",
+                "检索或设置对象动画在循环中是否反向运动",
+                "检索或设置对象动画时间之外的状态",
+                "检索或设置对象动画的状态。w3c正考虑是否将该属性移除，因为动画的状态可以通过其它的方式实现，比如重设样式"
+            ]
+        },
+        {
+            "name": "animation-name",
+            "mode": ["none", "<identifier>"],
+            "content": [
+                "不引用任何动画名称",
+                "定义一个或多个动画名称(identifier标识)"
+            ]
+        },
+        {
+            "name": "animation-duration",
+            "mode": ["<time>"],
+            "content": [
+                "指定对象动画的持续时间"
+            ]
+        },
+        {
+            "name": "animation-timing-function",
+            "mode": ["linear", "ease", "ease-in", "ease-out", "ease-in-out", "step-start", "step-end", "steps(<integer>[, [ start | end ] ]?)", "cubic-bezier(<number>, <number>, <number>, <number>)"],
+            "content": [
+                "线性过渡。等同于贝塞尔曲线(0.0, 0.0, 1.0, 1.0)",
+                "平滑过渡。等同于贝塞尔曲线(0.25, 0.1, 0.25, 1.0)",
+                "由慢到快。等同于贝塞尔曲线(0.42, 0, 1.0, 1.0)",
+                "由快到慢。等同于贝塞尔曲线(0, 0, 0.58, 1.0)",
+                "由慢到快再到慢。等同于贝塞尔曲线(0.42, 0, 0.58, 1.0)",
+                "等同于 steps(1, start)",
+                "等同于 steps(1, end)",
+                "接受两个参数的步进函数。第一个参数必须为正整数，指定函数的步数。第二个参数取值可以是start或end，指定每一步的值发生变化的时间点。第二个参数是可选的，默认值为end。",
+                "特定的贝塞尔曲线类型，4个数值需在[0, 1]区间内"
+            ]
+        },
+        {
+            "name": "animation-delay",
+            "mode": ["<time>"],
+            "content": [
+                "指定对象动画延迟的时间"
+            ]
+        },
+        {
+            "name": "animation-iteration-count",
+            "mode": ["infinite", "<number>"],
+            "content": [
+                "无限循环",
+                "指定对象动画的具体循环次数"
+            ]
+        },
+        {
+            "name": "animation-direction",
+            "mode": ["normal", "reverse", "alternate", "alternate-reverse"],
+            "content": [
+                "正常方向",
+                "反方向运行",
+                "动画先正常运行再反方向运行，并持续交替运行",
+                "动画先反运行再正方向运行，并持续交替运行"
+            ]
+        },
+        {
+            "name": "animation-play-state",
+            "mode": ["running", "paused"],
+            "content": [
+                "运动",
+                "暂停"
+            ]
+        },
+        {
+            "name": "animation-fill-mode",
+            "mode": ["none", "forwards", "backwards", "both"],
+            "content": [
+                "默认值。不设置对象动画之外的状态",
+                "设置对象状态为动画结束时的状态",
+                "设置对象状态为动画开始时的状态",
+                "设置对象状态为动画结束或开始的状态"
+            ]
+        }
+    ]
+}

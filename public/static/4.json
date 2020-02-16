@@ -1,0 +1,22 @@
+{
+    "name": "边距 (backGauge)",
+    "items": [
+        {
+            "name": "margin",
+            "mode": ["auto", "<length>", "<percentage>"],
+            "content": [
+                "水平（默认）书写模式下，vertical-margin计算值为0，horizontal-margin取决于包含块的剩余可用空间。",
+                "用长度值来定义外补白。可以为负值",
+                "用百分比来定义外补白。水平（默认）书写模式下，参照其包含块的width进行计算，其它情况参照height，可以为负值"
+            ]
+        },
+        {
+            "name": "padding",
+            "mode": ["<length>", "<percentage>"],
+            "content": [
+                "用长度值来定义内补白。不允许负值",
+                "用百分比来定义内补白。水平（默认）书写模式下，参照其包含块的width进行计算，其它情况参照height，不允许负值"
+            ]
+        }
+    ]
+}

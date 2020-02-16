@@ -1,0 +1,50 @@
+{
+    "name": "内容(Content)",
+    "items": [
+        {
+            "name": "content",
+            "mode": ["normal", "none", "<attr>", "<url>", "<string>", "counter(name)", "counter(name,list-style-type)", "counters(name,string)", "counters(name,string,list-style-type)", "no-close-quote", "no-open-quote", "close-quote", "open-quote"],
+            "content": [
+                "默认值。表现与none值相同",
+                "不生成任何值。",
+                "插入标签属性值",
+                "使用指定的绝对或相对地址插入一个外部资源（图像，声频，视频或浏览器支持的其他任何资源）",
+                "插入字符串",
+                "使用已命名的计数器",
+                "使用已命名的计数器并遵从指定的list-style-type属性",
+                "使用所有已命名的计数器",
+                "使用所有已命名的计数器并遵从指定的list-style-type属性",
+                "并不插入quotes属性的后标记。但增加其嵌套级别",
+                "并不插入quotes属性的前标记。但减少其嵌套级别",
+                "插入quotes属性的后标记",
+                "插入quotes属性的前标记"
+            ]
+        },
+        {
+            "name": "counter-increment",
+            "mode": ["none", "<identifier>", "<integer>"],
+            "content": [
+                "阻止计数器增加",
+                "identifier定义一个或多个将被增加的selector，id，或者class",
+                "定义计算器每次增加的数值，可以为负值，默认值是1"
+            ]
+        },
+        {
+            "name": "counter-reset",
+            "mode": ["none", "<identifier>", "<integer>"],
+            "content": [
+                "阻止计数器复位",
+                "identifier定义一个或多个将被复位的selector，id，或者class",
+                "定义被复位的数值，可以为负值，默认值是0"
+            ]
+        },
+        {
+            "name": "quotes",
+            "mode": ["none", "<string>"],
+            "content": [
+                "content属性的open-quote和close-quote值将不会生成任何标记",
+                "定义content属性的open-quote和close-quote值的标记，2个为一组"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "name": "尺寸与补白(Dimension)",
+    "items": [
+        {
+            "name": "width",
+            "mode": ["auto", "<length>", "<percentage>"],
+            "content": [
+                "无特定宽度值，取决于其它属性值",
+                "用长度值来定义宽度。不允许负值",
+                "用百分比来定义宽度。百分比参照包含块宽度。不允许负值"
+            ]
+        },
+        {
+            "name": "min-width",
+            "mode": ["<length>", "<percentage>"],
+            "content": [
+                "用长度值来定义最小宽度。不允许负值",
+                "用百分比来定义最小宽度。不允许负值"
+            ]
+        },
+        {
+            "name": "max-width",
+            "mode": ["none", "<length>", "<percentage>"],
+            "content": [
+                "无最大宽度限制",
+                "用长度值来定义最大宽度。不允许负值",
+                "用百分比来定义最大宽度。不允许负值"
+            ]
+        },
+        {
+            "name": "height",
+            "mode": ["auto", "<length>", "<percentage>"],
+            "content": [
+                "无特定高度值，取决于其它属性值",
+                "用长度值来定义高度。不允许负值",
+                "用百分比来定义高度。不允许负值"
+            ]
+        },
+        {
+            "name": "min-height",
+            "mode": ["<length>", "<percentage>"],
+            "content": [
+                "用长度值来定义最小高度。不允许负值",
+                "用百分比来定义最小高度。不允许负值"
+            ]
+        },
+        {
+            "name": "max-height",
+            "mode": ["none", "<length>", "<percentage>"],
+            "content": [
+                "无最小高度限制",
+                "用长度值来定义最大高度。不允许负值",
+                "用百分比来定义最大高度。不允许负值"
+            ]
+        }
+    ]
+}

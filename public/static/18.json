@@ -1,0 +1,83 @@
+{
+    "name": "变换(Transform)",
+    "items": [
+        {
+            "name": "transform",
+            "mode": ["none", "matrix()", "translate()", "translatex()", "translatey()", "rotate()", "scale()", "scalex()", "scaley()", "skew()","skewx()", "skewy()", "matrix3d()", "translate3d()", "translatez()", "rotate3d()", "rotatex()", "rotatey()", "rotatez()", "scale3d()", "scalez()", "perspective()"],
+            "content": [
+                "无转换",
+                "以一个含六值的(a,b,c,d,e,f)变换矩阵的形式指定一个2D变换，相当于直接应用一个[a,b,c,d,e,f]变换矩阵",
+                "指定对象的2D translation（2D平移）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0",
+                "指定对象X轴（水平方向）的平移",
+                "指定对象Y轴（垂直方向）的平移",
+                "指定对象的2D rotation（2D旋转），需先有 <' transform-origin '> 属性的定义",
+                "指定对象的2D scale（2D缩放）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认取第一个参数的值",
+                "指定对象X轴的（水平方向）缩放",
+                "指定对象Y轴的（垂直方向）缩放",
+                "指定对象skew transformation（斜切扭曲）。第一个参数对应X轴，第二个参数对应Y轴。如果第二个参数未提供，则默认值为0",
+                "指定对象X轴的（水平方向）扭曲",
+                "指定对象Y轴的（垂直方向）扭曲",
+                "以一个4x4矩阵的形式指定一个3D变换",
+                "指定对象的3D位移。第1个参数对应X轴，第2个参数对应Y轴，第3个参数对应Z轴，参数不允许省略",
+                "指定对象Z轴的平移",
+                "指定对象的3D旋转角度，其中前3个参数分别表示旋转的方向x,y,z，第4个参数表示旋转的角度，参数不允许省略",
+                "指定对象在x轴上的旋转角度",
+                "指定对象在y轴上的旋转角度",
+                "指定对象在z轴上的旋转角度",
+                "指定对象的3D缩放。第1个参数对应X轴，第2个参数对应Y轴，第3个参数对应Z轴，参数不允许省略",
+                "指定对象的z轴缩放",
+                "指定透视距离"
+            ]
+        },
+        {
+            "name": "transform-origin",
+            "mode": ["<percentage>", "<length>", "left", "center", "right", "top", "bottom"],
+            "content": [
+                "用百分比指定坐标值。可以为负值。",
+                "用长度值指定坐标值。可以为负值。",
+                "指定原点的横坐标为left",
+                "指定原点的横、纵坐标为center",
+                "指定原点的横坐标为right",
+                "指定原点的纵坐标为top",
+                "指定原点的纵坐标为bottom"
+            ]
+        },
+        {
+            "name": "transform-style",
+            "mode": ["flat", "preserve-3d"],
+            "content": [
+                "指定子元素位于此元素所在平面内",
+                "指定子元素定位在三维空间内"
+            ]
+        },
+        {
+            "name": "perspective",
+            "mode": ["none", "<length>"],
+            "content": [
+                "不指定透视",
+                "指定观察者距离「z=0」平面的距离，为元素及其内容应用透视变换。不允许负值"
+            ]
+        },
+        {
+            "name": "perspective-origin",
+            "mode": ["<percentage>", "<length>", "left", "center", "right", "top", "bottom"],
+            "content": [
+                "用百分比指定透视点坐标值，相对于元素宽度。可以为负值。",
+                "用长度值指定透视点坐标值。可以为负值。",
+                "指定透视点的横坐标为left",
+                "指定透视点的横、纵坐标为center",
+                "指定透视点的横坐标为right",
+                "指定透视点的纵坐标为top",
+                "指定透视点的纵坐标为bottom"
+            ]
+        },
+        {
+            "name": "backface-visibility",
+            "mode": ["visible", "hidden"],
+            "content": [
+                "指定元素背面可见，允许显示正面的镜像。",
+                "指定元素背面不可见"
+            ]
+        }
+    ]
+}

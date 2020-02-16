@@ -1,0 +1,72 @@
+{
+    "name": "布局(Layout)",
+    "items": [
+        {
+            "name": "display",
+            "mode": ["none", "inline", "block", "list-item", "inline-block", "table", "inline-table", "table-caption", "table-cell", "table-row", "table-row-group", "table-column", "table-column-group", "table-footer-group", "table-header-group", "run-in", "box", "inline-box", "flexbox", "inline-flexbox", "flex", "inline-flex"],
+            "content": [
+                "隐藏对象。与visibility属性的hidden值不同，其不为被隐藏的对象保留其物理空间",
+                "指定对象为内联元素。",
+                "指定对象为块元素。",
+                "指定对象为列表项目。",
+                "指定对象为内联块元素。",
+                "指定对象作为块元素级的表格。类同于html标签<table>",
+                "指定对象作为内联元素级的表格。类同于html标签<table>",
+                "指定对象作为表格标题。类同于html标签<caption>",
+                "指定对象作为表格单元格。类同于html标签<td>",
+                "指定对象作为表格行。类同于html标签<tr>",
+                "指定对象作为表格行组。类同于html标签<tbody>",
+                "指定对象作为表格列。类同于html标签<col>",
+                "指定对象作为表格列组显示。类同于html标签<colgroup>",
+                "指定对象作为表格标题组。类同于html标签<thead>",
+                "指定对象作为表格脚注组。类同于html标签<tfoot>",
+                "根据上下文决定对象是内联对象还是块级对象。",
+                "将对象作为弹性伸缩盒显示。",
+                "将对象作为内联块级弹性伸缩盒显示。",
+                "将对象作为弹性伸缩盒显示。",
+                "将对象作为内联块级弹性伸缩盒显示。",
+                "将对象作为弹性伸缩盒显示。",
+                "将对象作为内联块级弹性伸缩盒显示。"
+            ]
+        },
+        {
+            "name": "float",
+            "mode": ["none", "left", "right"],
+            "content": [
+                "设置元素不浮动",
+                "设置元素浮在左边",
+                "设置元素浮在右边"
+            ]
+        },
+        {
+            "name": "clear",
+            "mode": ["none", "both", "left", "right"],
+            "content": [
+                "允许两边都可以有浮动对象",
+                "不允许有浮动对象",
+                "不允许左边有浮动对象",
+                "不允许右边有浮动对象"
+            ]
+        },
+        {
+            "name": "visibility",
+            "mode": ["visible", "hidden", "collapse"],
+            "content": [
+                "设置对象可视",
+                "设置对象隐藏",
+                "主要用来隐藏表格的行或列。隐藏的行或列能够被其他内容使用。对于表格外的其他对象，其作用等同于hidden。"
+            ]
+        },
+        {
+            "name": "overflow",
+            "mode": ["visible", "hidden", "scroll", "auto", "clip"],
+            "content": [
+                "对溢出内容不做处理，内容可能会超出容器。",
+                "隐藏溢出容器的内容且不出现滚动条。",
+                "隐藏溢出容器的内容，溢出的内容可以通过滚动呈现。",
+                "当内容没有溢出容器时不出现滚动条，当内容溢出容器时出现滚动条，按需出现滚动条。textarea元素的overflow默认值就是auto。",
+                "与hidden一样，clip也被用来隐藏溢出容器的内容且不出现滚动条。不同的地方在于，clip是一个完全禁止滚动的容器，而hidden仍然可以通过编程机制让内容可以滚动。"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "书写模式(Writing Modes)",
+    "items": [
+        {
+            "name": "direction",
+            "mode": ["ltr", "rtl"],
+            "content": [
+                "文本流从左到右。",
+                "文本流从右到左。"
+            ]
+        },
+        {
+            "name": "unicode-bidi",
+            "mode": ["normal", "embed", "bidi-override"],
+            "content": [
+                "对象不打开附加的嵌入层，对于内联元素，隐式重排序跨对象边界进行工作。",
+                "对象打开附加的嵌入层，<' direction '> 属性的值指定嵌入层，在对象内部进行隐式重排序。",
+                "严格按照 <' direction '> 属性的值重排序。忽略隐式双向运算规则。"
+            ]
+        },
+        {
+            "name": "writing-mode",
+            "mode": ["horizontal-tb", "vertical-rl", "vertical-lr", "lr-tb", "tb-rl"],
+            "content": [
+                "水平方向自上而下的书写方式。即 left-right-top-bottom（类似IE私有值lr-tb）",
+                "垂直方向自右而左的书写方式。即 top-bottom-right-left（类似IE私有值tb-rl）",
+                "垂直方向自左而右的书写方式。即 top-bottom-left-right",
+                "左-右，上-下。对象中的内容在水平方向上从左向右流入，后一行在前一行的下面。 所有的字形都是竖直向上的。这种布局是罗马语系使用的（IE）",
+                "上-下，右-左。对象中的内容在垂直方向上从上向下流入，自右向左。后一竖行在前一竖行的左面。全角字符是竖直向上的，半角字符如拉丁字母或片假名顺时针旋转90度。这种布局是东亚语系通常使用的（IE）"
+            ]
+        }
+    ]
+}

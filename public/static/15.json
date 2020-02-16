@@ -1,0 +1,204 @@
+{
+    "name": "用户界面(User Interface)",
+    "items": [
+        {
+            "name": "appearance",
+            "mode": ["none", "button", "button-arrow-down", "button-arrow-next", "button-arrow-previous", "button-arrow-up", "button-bevel", "button-focus", "caps-lock-indicator", "caret", "checkbox", "checkbox-container", "checkbox-label", "checkmenuitem", "default-button", "dualbutton", "groupbox", "listbox", "listitem", "media-fullscreen-button", "media-mute-button", "media-play-button", "media-seek-back-button", "media-seek-forward-button", "media-slider", "media-sliderthumb", "menuarrow", "menubar", "menucheckbox", "menuimage", "menuitem", "menuitemtext", "menulist", "menulist-button", "menulist-text", "menulist-textfield", "menupopup", "menuradio", "menuseparator", "meterbar", "meterchunk", "progressbar","progressbar-vertical", "progresschunk", "progresschunk-vertical", "push-button", "radio", "radio-container", "radio-label", "radiomenuitem", "resizer", "resizerpanel", "scale-horizontal", "scalethumbend", "scalethumb-horizontal", "scalethumbstart", "scalethumbtick", "scalethumb-vertical", "scale-vertical", "scrollbarbutton-up", "scrollbarbutton-right", "scrollbarbutton-down", "scrollbarbutton-left", "scrollbargripper-horizontal", "scrollbargripper-vertical", "scrollbarthumb-horizontal", "scrollbarthumb-vertical", "scrollbartrack-horizontal", "scrollbartrack-vertical", "searchfield", "searchfield-cancel-button", "searchfield-decoration", "searchfield-results-button", "searchfield-results-decoration", "separator", "sheet", "slider-horizontal", "sliderthumb-horizontal", "sliderthumb-vertical", "slider-vertical", "spinner", "spinner-downbutton", "spinner-textfield", "spinner-upbutton", "splitter", "square-button", "statusbar", "statusbarpanel", "tab", "tabpanel", "tabpanels", "tab-scroll-arrow-back", "tab-scroll-arrow-forward", "textarea", "textfield", "textfield-multiline", "toolbar", "toolbarbutton", "toolbarbutton-dropdown", "toolbargripper", "toolbox", "tooltip", "treeheader", "treeheadercell", "treeheadersortarrow", "treeitem", "treeline", "treetwisty", "treetwistyopen", "treeview"],
+            "content": [
+                "去除系统默认appearance的样式",
+                "以按钮的风格渲染",
+                "以复选框的风格渲染",
+                "以列表框的风格渲染",
+                "以列表项的风格渲染",
+                "以进度条的风格渲染",
+                "以垂直进度条的风格渲染",
+                "以进度块的风格渲染",
+                "以垂直进度块的风格渲染",
+                "以单选框的风格渲染",
+                "以滚动条按钮-上的风格渲染",
+                "以滚动条按钮-右的风格渲染",
+                "以滚动条按钮-下的风格渲染",
+                "以滚动条按钮-左的风格渲染",
+                "以水平滚动条滑块的风格渲染",
+                "以垂直滚动条滑块的风格渲染",
+                "以水平滚动条拖动区域的风格渲染",
+                "以垂直滚动条拖动区域的风格渲染",
+                "以搜索框的风格渲染",
+                "以搜索框取消按钮的风格渲染",
+                "以照选项卡标签的风格渲染",
+                "以照选项卡区域的风格渲染",
+                "以多行文本框的风格渲染",
+                "以单行行文本框的风格渲染",
+                "以气泡提示的风格渲染"
+            ]
+        },
+        {
+            "name": "text-overflow",
+            "mode": ["clip", "ellipsis"],
+            "content": [
+                "当内联内容溢出块容器时，将溢出部分裁切掉。",
+                "当内联内容溢出块容器时，将溢出部分替换为（...）。"
+            ]
+        },
+        {
+            "name": "outline",
+            "mode": ["<' outline-width '>", "<' outline-style '>", "<' outline-color '>"],
+            "content": [
+                "指定轮廓边框的宽度",
+                "指定轮廓边框的样式。",
+                "指定轮廓边框的颜色。"
+            ]
+        },
+        {
+            "name": "outline-width",
+            "mode": ["<length>", "medium", "thin", "thick"],
+            "content": [
+                "用长度值来定义轮廓的厚度。不允许负值",
+                "定义默认宽度的轮廓。",
+                "定义比默认宽度细的轮廓。",
+                "定义比默认宽度粗的轮廓。"
+            ]
+        },
+        {
+            "name": "outline-color",
+            "mode": ["<color>", "invert"],
+            "content": [
+                "指定颜色。",
+                "使用背景色的反色。该参数值目前仅在IE及Opera下有效"
+            ]
+        },
+        {
+            "name": "outline-style",
+            "mode": ["none", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"],
+            "content": [
+                "无轮廓。与任何指定的 <' outline-width '> 值无关",
+                "点状轮廓。",
+                "虚线轮廓。",
+                "实线轮廓",
+                "双线轮廓。两条单线与其间隔的和等于指定的 <' outline-width '> 值",
+                "3D凹槽轮廓。",
+                "3D凸槽轮廓。",
+                "3D凹边轮廓。",
+                "3D凸边轮廓。"
+            ]
+        },
+        {
+            "name": "outline-offset",
+            "mode": ["<length>"],
+            "content": [
+                "用长度值来定义轮廓偏移。允许负值。"
+            ]
+        },
+        {
+            "name": "nav-index",
+            "mode": ["auto", "<number>"],
+            "content": [
+                "元素的导航焦点顺序由客户端自动分配。",
+                "用浮点数来定义元素的导航焦点顺序。若某元素的该值等于1则意味着该元素最先被导航。当若干个元素的nav-index值相同时，则按照文档的先后顺序进行导航。"
+            ]
+        },
+        {
+            "name": "nav-up",
+            "mode": ["auto", "<id>", "<target-name>"],
+            "content": [
+                "默认顺序。",
+                "被导航元素的id。",
+                "框架目标页面之间的元素焦点导航。"
+            ]
+        },
+        {
+            "name": "nav-right",
+            "mode": ["auto", "<id>", "<target-name>"],
+            "content": [
+                "默认顺序。",
+                "被导航元素的id。",
+                "框架目标页面之间的元素焦点导航。"
+            ]
+        },
+        {
+            "name": "nav-down",
+            "mode": ["auto", "<id>", "<target-name>"],
+            "content": [
+                "默认顺序。",
+                "被导航元素的id。",
+                "框架目标页面之间的元素焦点导航。"
+            ]
+        },
+        {
+            "name": "nav-left",
+            "mode": ["auto", "<id>", "<target-name>"],
+            "content": [
+                "默认顺序。",
+                "被导航元素的id。",
+                "框架目标页面之间的元素焦点导航。"
+            ]
+        },
+        {
+            "name": "cursor",
+            "mode": ["<url>", "<url> <x> <y>", "auto", "default", "none"],
+            "content": [
+                "使用绝对或者相对地址引入外部图像作为光标形状",
+                "通过<x> <y>两个值指定具体需要显示的图像位置。类似 <' background-position '>",
+                "用户代理基于当前上下文决定光标形状",
+                "相关平台的默认光标形状，通常为箭头。",
+                "没有光标形状"
+            ]
+        },
+        {
+            "name": "zoom",
+            "mode": ["normal", "<number>", "<percentage>"],
+            "content": [
+                "使用对象的实际尺寸。",
+                "用浮点数来定义缩放比例。不允许负值",
+                "用百分比来定义缩放比例。不允许负值"
+            ]
+        },
+        {
+            "name": "box-sizing",
+            "mode": ["content-box", "border-box"],
+            "content": [
+                "padding和border不被包含在定义的width和height之内。对象的实际宽度等于设置的width值和border、padding之和，即 ( Element width = width + border + padding )此属性表现为标准模式下的盒模型。",
+                "padding和border被包含在定义的width和height之内。对象的实际宽度就等于设置的width值，即使定义有border和padding也不会改变对象的实际宽度，即 ( Element width = width )此属性表现为怪异模式下的盒模型。"
+            ]
+        },
+        {
+            "name": "resize",
+            "mode": ["none", "both", "horizontal", "vertical"],
+            "content": [
+                "不允许用户调整元素大小。",
+                "用户可以调节元素的宽度和高度。",
+                "用户可以调节元素的宽度",
+                "用户可以调节元素的高度。"
+            ]
+        },
+        {
+            "name": "ime-mode",
+            "mode": ["auto", "normal", "active", "inactive", "disabled"],
+            "content": [
+                "不影响IME(input method editor)的状态。",
+                "正常的IME状态",
+                "指定所有使用ime输入的字符。即激活本地语言输入法。用户仍可以撤销激活ime",
+                "指定所有不使用ime输入的字符。即激活非本地语言。用户仍可以撤销激活ime",
+                "完全禁用ime。对于有焦点的控件(如输入框)，用户不可以激活ime"
+            ]
+        },
+        {
+            "name": "user-select",
+            "mode": ["none", "text", "all", "element"],
+            "content": [
+                "文本不能被选择",
+                "可以选择文本",
+                "当所有内容作为一个整体时可以被选择。如果双击或者在上下文上点击子元素，那么被选择的部分将是以该子元素向上回溯的最高祖先元素。",
+                "可以选择文本，但选择范围受元素边界的约束"
+            ]
+        },
+        {
+            "name": "pointer-events",
+            "mode": ["auto", "none"],
+            "content": [
+                "与pointer-events属性未指定时的表现效果相同。在svg内容上与visiblepainted值相同",
+                "元素永远不会成为鼠标事件的target。但是，当其后代元素的pointer-events属性指定其他值时，鼠标事件可以指向后代元素，在这种情况下，鼠标事件将在捕获或冒泡阶触发父元素的事件侦听器。其他值只能应用在SVG上。"
+            ]
+        }
+    ]
+}

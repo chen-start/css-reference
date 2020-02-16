@@ -1,0 +1,74 @@
+{
+    "name": "文本装饰(Text Decoration)",
+    "items": [
+        {
+            "name": "text-decoration",
+            "mode": ["text-decoration-line", "text-decoration-style", "text-decoration-color"],
+            "content": [
+                "指定文本装饰的种类。相当于CSS2.1的text-decoration属性，可取值：none | underline | overline | line-through | blink",
+                "指定文本装饰的样式。",
+                "指定文本装饰的颜色。"
+            ]
+        },
+        {
+            "name": "text-decoration-line",
+            "mode": ["none", "underline", "overline", "line-through", "blink"],
+            "content": [
+                "指定文字无装饰",
+                "指定文字的装饰是下划线",
+                "指定文字的装饰是上划线",
+                "指定文字的装饰是贯穿线",
+                "指定文字的装饰是闪烁。"
+            ]
+        },
+        {
+            "name": "text-decoration-color",
+            "mode": ["<color>"],
+            "content": [
+                "指定颜色。"
+            ]
+        },
+        {
+            "name": "text-decoration-style",
+            "mode": ["solid", "double", "dotted", "dashed", "wavy"],
+            "content": [
+                "实线",
+                "双线",
+                "点状线条",
+                "虚线",
+                "波浪线"
+            ]
+        },
+        {
+            "name": "text-decoration-skip",
+            "mode": ["none", "objects", "spaces", "ink", "edges", "box-decoration"],
+            "content": [
+                "不跳过：文本装饰将绘制在所有文本及原子内联级盒上。",
+                "跳过原子内联级盒（例如图片或内联块）",
+                "跳过空白：包括常规空白（U+0020）、制表符（U+0009）以及不间断空格（U+00A0）、表意空格（U+3000）、所有固定宽度空格（U+2000至U+200A、U+202F和U+205F）、以及相邻的字母间隔或单词间隔。",
+                "跳过字符绘制处：中断装饰线，以显示文本装饰件将穿过该字形的文本。用户代理可能还会在该字形轮廓的两侧额外的跳过一段距离。",
+                "用户代理应当将装饰线的起始、结束放置在文本内容边缘更靠内的位置，使得诸如两个紧密相邻的元素的下划线不会显示为一条下划线。（这在中文里很重要，对于中文，下划线是一种标点符号。）",
+                "跳过盒子的 margin, border, padding 区域。需要注意的是，这只针对祖先的装饰效果，装饰盒不会绘制自身的装饰。"
+            ]
+        },
+        {
+            "name": "text-underline-position",
+            "mode": ["auto", "under", "left", "right"],
+            "content": [
+                "用户代理可能会使用任意算法确定下划线的位置。",
+                "下划线的定位与元素内容盒子的下边缘相关",
+                "下划线的定位与元素内容盒子的左边缘相关",
+                "下划线的定位与元素内容盒子的右边缘相关"
+            ]
+        },
+        {
+            "name": "text-shadow",
+            "mode": ["none", "<length>", "<color>"],
+            "content": [
+                "无阴影",
+                "第1个长度值用来设置对象的阴影水平偏移值;第2个长度值用来设置对象的阴影垂直偏移值;如果提供了第3个长度值则用来设置对象的阴影模糊值;第一个第二个值可以为负值，第三个值不允许为负值。",
+                "设置对象的阴影的颜色。"
+            ]
+        }
+    ]
+}

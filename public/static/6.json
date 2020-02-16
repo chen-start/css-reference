@@ -1,0 +1,121 @@
+{
+    "name": "边框 (Borders)",
+    "items": [
+        {
+            "name": "border",
+            "mode": ["<line-width>", "<line-style>", "<color>"],
+            "content": [
+                "定义元素的边框厚度。",
+                "定义元素的边框样式。",
+                "定义元素的边框颜色。"
+            ]
+        },
+        {
+            "name": "border-width",
+            "mode": ["<length>", "medium", "thin", "thick"],
+            "content": [
+                "用长度值来定义边框的厚度。不允许负值",
+                "定义默认厚度的边框。计算值为3px",
+                "定义比默认厚度细的边框。计算值为1px",
+                "定义比默认厚度粗的边框。计算值为5px"
+            ]
+        },
+        {
+            "name": "border-style",
+            "mode": ["none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"],
+            "content": [
+                "无轮廓。当定义了该值时，border-color将被忽略，border-width计算值为0，除非边框轮廓应用了border-image。",
+                "隐藏边框。",
+                "点状轮廓。",
+                "虚线轮廓。",
+                "实线轮廓",
+                "双线轮廓。两条单线与其间隔的和等于指定的border-width值",
+                "3D凹槽轮廓。",
+                "3D凸槽轮廓。",
+                "3D凹边轮廓。",
+                "3D凸边轮廓。"
+            ]
+        },
+        {
+            "name": "border-color",
+            "mode": ["<color>"],
+            "content": [
+                "指定颜色。"
+            ]
+        },
+        {
+            "name": "box-shadow",
+            "mode": ["none", "<length>", "<color>", "inset"],
+            "content": [
+                "无阴影",
+                "四边设置阴影效果，第1个长度值定义元素的阴影水平偏移值。正值，阴影出现在元素右侧；负值，则阴影出现在元素左侧；第2个长度值定义元素的阴影垂直偏移值。正值，阴影出现在元素底部；负值，则阴影出现在元素顶部；第3个长度值定义元素的阴影模糊值半径（如果提供了）。该值越大阴影边缘越模糊，若该值为0，阴影边缘不出现模糊。不允许负值；第4个长度值定义元素的阴影外延值（如果提供了）。正值，阴影将向四面扩展；负值，则阴影向里收缩。",
+                "定义元素阴影的颜色。如果该值未定义，阴影颜色将默认取当前最近的文本颜色",
+                "定义元素的阴影类型为内阴影。该值为空时，则元素的阴影类型为外阴影"
+            ]
+        },
+        {
+            "name": "border-radius",
+            "mode": ["<length>", "<percentage>"],
+            "content": [
+                "用长度值定义圆形半径或椭圆的半长轴，半短轴。不允许负值",
+                "用百分比定义圆形半径或椭圆的半长轴，半短轴。水平方向百分比参照元素宽度（非内容宽度），垂直方向参照元素高度。不允许负值"
+            ]
+        },
+        {
+            "name": "border-image",
+            "mode": ["border-image-source", "border-image-slice", "border-image-width", "border-image-outset", "border-image-repeat"],
+            "content": [
+                "定义元素边框背景图像，可以是图片路径或使用渐变创建的“背景图像”。",
+                "定义元素边框背景图像从什么位置开始分割。",
+                "定义元素边框背景图像厚度。",
+                "定义元素边框背景图像的外延尺寸。",
+                "定义元素边框背景图像的平铺方式。"
+            ]
+        },
+        {
+            "name": "border-image-source",
+            "mode": ["none", "<image>"],
+            "content": [
+                "无背景图片。",
+                "使用绝对或相对地址指或者创建渐变色来确定图像。"
+            ]
+        },
+        {
+            "name": "border-image-slice",
+            "mode": ["<number>", "<percentage>", "fill"],
+            "content": [
+                "用浮点数指定图像分割的位置。数字代表在图像上的像素位置或向量坐标。不允许负值。",
+                "用百分比指定图像分割的位置。垂直和水平方向的百分比分别参照图片的宽和高进行换算。不允许负值。",
+                "保留裁减后的中间区域，其铺排方式遵循border-image-repeat的定义。"
+            ]
+        },
+        {
+            "name": "border-image-width",
+            "mode": ["<length>", "<percentage>", "<number>", "auto"],
+            "content": [
+                "用长度值指定图像边框的厚度。不允许负值。",
+                "用百分比指定图像边框的厚度。参照图像边框区域的大小（包含border和padding）进行换算。不允许负值。",
+                "用浮点数指定图像边框的厚度。该值表示为border-width的倍数，若值为2，则使用值为2 * border-width。不允许负值。",
+                "如果auto值被设置，则border-image-width采用与border-image-slice相同的值。"
+            ]
+        },
+        {
+            "name": "border-image-source",
+            "mode": ["<length>", "<number>"],
+            "content": [
+                "用长度值指定边框图像向外偏移的距离。不允许负值。",
+                "用浮点数指定边框图像向外偏移的距离。该值表示为border-width的倍数，若值为2，则使用值为2 * border-width。不允许负值。"
+            ]
+        },
+        {
+            "name": "border-image-repeat",
+            "mode": ["stretch", "repeat", "round", "space"],
+            "content": [
+                "将被分割的图像使用拉伸的方式来填充满边框图像区域。",
+                "将被分割的图像使用重复平铺的方式来填充满边框图像区域。当图像碰到边界时，如果超过则被截断。",
+                "与 repeat 关键字类似。不同在于，当背景图像不能以整数次平铺时，会根据情况缩放图像。",
+                "与 repeat 关键字类似。不同在于，当背景图像不能以整数次平铺时，会用空白间隙填充在图像周围。"
+            ]
+        }
+    ]
+}

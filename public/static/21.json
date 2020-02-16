@@ -1,0 +1,98 @@
+{
+    "name": "媒体查询(Media Queries)",
+    "items": [
+        {
+            "name": "width",
+            "mode": ["<length>"],
+            "content": [
+                "用长度值来定义宽度。不允许负值"
+            ]
+        },
+        {
+            "name": "height",
+            "mode": ["<length>"],
+            "content": [
+                "用长度值来定义高度。不允许负值"
+            ]
+        },
+        {
+            "name": "device-width",
+            "mode": ["<length>"],
+            "content": [
+                "用长度值来定义宽度。不允许负值"
+            ]
+        },
+        {
+            "name": "device-height",
+            "mode": ["<length>"],
+            "content": [
+                "用长度值来定义高度。不允许负值"
+            ]
+        },
+        {
+            "name": "orientation",
+            "mode": ["portrait", "landscape"],
+            "content": [
+                "指定输出设备中的页面可见区域高度大于或等于宽度",
+                "除portrait值情况外，都是landscape"
+            ]
+        },
+        {
+            "name": "aspect-ratio",
+            "mode": ["<ratio>"],
+            "content": [
+                "指定比率"
+            ]
+        },
+        {
+            "name": "device-aspect-ratio",
+            "mode": ["<ratio>"],
+            "content": [
+                "指定比率"
+            ]
+        },
+        {
+            "name": "color",
+            "mode": ["<integer>"],
+            "content": [
+                "用用整数值来定义彩色原件数。不允许负值"
+            ]
+        },
+        {
+            "name": "color-index",
+            "mode": ["<integer>"],
+            "content": [
+                "用整数值来定义彩色查询表中的条目数。不允许负值"
+            ]
+        },
+        {
+            "name": "monochrome",
+            "mode": ["<integer>"],
+            "content": [
+                "用整数值来定义宽度。不允许负值"
+            ]
+        },
+        {
+            "name": "resolution",
+            "mode": ["<resolution>"],
+            "content": [
+                "用整数值来定义宽度。不允许负值"
+            ]
+        },
+        {
+            "name": "scan",
+            "mode": ["progressive", "interlace"],
+            "content": [
+                "连续扫描",
+                "交织扫描"
+            ]
+        },
+        {
+            "name": "grid",
+            "mode": ["<integer>"],
+            "content": [
+                "用整数值来定义是否使用栅格或点阵。只有1和0才是有效值，1代表是，0代表否"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "name": "多列(Multi-column)",
+    "items": [
+        {
+            "name": "columns",
+            "mode": ["<' column-width '>", "<' column-count '>"],
+            "content": [
+                "设置或检索对象每列的宽度",
+                "设置或检索对象的列数"
+            ]
+        },
+        {
+            "name": "column-width",
+            "mode": ["<length>", "auto"],
+            "content": [
+                "用长度值来定义列宽。不允许负值",
+                "根据 <' column-count '> 自定分配宽度"
+            ]
+        },
+        {
+            "name": "column-count",
+            "mode": ["<integer>", "auto"],
+            "content": [
+                "用整数值来定义列数。不允许负值",
+                "根据 <' column-width '> 自定分配宽度"
+            ]
+        },
+        {
+            "name": "column-gap",
+            "mode": ["<length>", "normal"],
+            "content": [
+                "用长度值来定义列与列之间的间隙。不允许负值",
+                "与 <' font-size '> 大小相同。假设该对象的font-size为16px，则normal值为16px，类推。"
+            ]
+        },
+        {
+            "name": "column-rule",
+            "mode": ["<' column-rule-width '>", "<' column-rule-style '>", "<' column-rule-color '>"],
+            "content": [
+                "设置或检索对象的列与列之间的边框厚度。",
+                "设置或检索对象的列与列之间的边框样式。",
+                "设置或检索对象的列与列之间的边框颜色。"
+            ]
+        },
+        {
+            "name": "column-rule-width",
+            "mode": ["<length>", "medium", "thin", "thick"],
+            "content": [
+                "用长度值来定义边框的厚度。不允许负值",
+                "定义默认厚度的边框。",
+                "定义比默认厚度细的边框。",
+                "定义比默认厚度粗的边框。"
+            ]
+        },
+        {
+            "name": "column-rule-style",
+            "mode": ["none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"],
+            "content": [
+                "无轮廓。<' column-rule-color '> 与<' column-rule-width '> 将被忽略",
+                "隐藏边框。",
+                "点状轮廓。",
+                "虚线轮廓。",
+                "实线轮廓",
+                "双线轮廓。两条单线与其间隔的和等于指定的 <' column-rule-width '> 值",
+                "3D凹槽轮廓。",
+                "3D凸槽轮廓。",
+                "3D凹边轮廓。",
+                "3D凸边轮廓。"
+            ]
+        },
+        {
+            "name": "column-rule-color",
+            "mode": ["<color>"],
+            "content": [
+                "指定颜色。"
+            ]
+        },
+        {
+            "name": "column-span",
+            "mode": ["none", "all"],
+            "content": [
+                "不跨列",
+                "横跨所有列"
+            ]
+        },
+        {
+            "name": "column-fill",
+            "mode": ["auto", "balance"],
+            "content": [
+                "列高度自适应内容",
+                "所有列的高度以其中最高的一列统一"
+            ]
+        },
+        {
+            "name": "column-break-before",
+            "mode": ["auto", "always", "avoid"],
+            "content": [
+                "既不强迫也不禁止在元素之前断行并产生新列",
+                "总是在元素之前断行并产生新列",
+                "避免在元素之前断行并产生新列"
+            ]
+        },
+        {
+            "name": "column-break-after",
+            "mode": ["auto", "always", "avoid"],
+            "content": [
+                "既不强迫也不禁止在元素之后断行并产生新列",
+                "总是在元素之后断行并产生新列",
+                "避免在元素之后断行并产生新列"
+            ]
+        },
+        {
+            "name": "column-break-inside",
+            "mode": ["auto", "avoid"],
+            "content": [
+                "既不强迫也不禁止在元素内部断行并产生新列",
+                "避免在元素内部断行并产生新列"
+            ]
+        }
+    ]
+}

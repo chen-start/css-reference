@@ -1,0 +1,98 @@
+{
+    "name": "背景 (Backgrounds)",
+    "items": [
+        {
+            "name": "background",
+            "mode": ["background-image", "background-position", "background-size", "background-repeat", "background-attachment", "background-origin", "background-clip", "background-color"],
+            "content": [
+                "指定元素使用的背景图像。可以是图片路径或使用渐变创建的“背景图像”",
+                "指定背景图像在元素中出现的位置。",
+                "指定背景图像尺寸。",
+                "指定背景图像如何填充。",
+                "定义滚动时背景图像相对于谁固定。",
+                "指定背景图像从元素的哪个区域作为显示的原点。",
+                "指定背景图像向外裁剪的区域。",
+                "指定背景颜色。"
+            ]
+        },
+        {
+            "name": "background-color",
+            "mode": ["<color>"],
+            "content": [
+                "指定颜色。"
+            ]
+        },
+        {
+            "name": "background-image",
+            "mode": ["none", "<image>"],
+            "content": [
+                "无背景图。",
+                "使用绝对或相对地址指或者创建渐变色来确定图像。"
+            ]
+        },
+        {
+            "name": "background-repeat",
+            "mode": ["repeat-x", "repeat-y", "repeat", "no-repeat", "round", "space"],
+            "content": [
+                "背景图像在横向上平铺",
+                "背景图像在纵向上平铺",
+                "背景图像在横向和纵向平铺",
+                "背景图像不平铺",
+                "当背景图像不能以整数次平铺时，会根据情况缩放图像。",
+                "当背景图像不能以整数次平铺时，会用空白间隙填充在图像周围。"
+            ]
+        },
+        {
+            "name": "background-attachment",
+            "mode": ["fixed", "scroll", "local"],
+            "content": [
+                "背景图像相对于视口（viewport）固定。",
+                "背景图像相对于元素固定，也就是说当元素内容滚动时背景图像不会跟着滚动，因为背景图像总是要跟着元素本身。但会随元素的祖先元素或窗体一起滚动。",
+                "背景图像相对于元素内容固定，也就是说当元素随元素滚动时背景图像也会跟着滚动，因为背景图像总是要跟着内容。"
+            ]
+        },
+        {
+            "name": "background-position",
+            "mode": ["<percentage>", "<length>", "center", "left", "right", "top", "bottom"],
+            "content": [
+                "用百分比指定背景图像在元素中出现的位置。可以为负值。参考容器尺寸减去背景图尺寸进行换算。",
+                "用长度值指定背景图像在元素中出现的位置。可以为负值。",
+                "背景图像横向或纵向居中。",
+                "背景图像从元素左边开始出现。",
+                "背景图像从元素右边开始出现。",
+                "背景图像从元素顶部开始出现。",
+                "背景图像从元素底部开始出现。"
+            ]
+        },
+        {
+            "name": "background-origin",
+            "mode": ["border-box", "padding-box", "content-box"],
+            "content": [
+                "从border区域（含border）开始显示背景图像。",
+                "从padding区域（含padding）开始显示背景图像。",
+                "从content区域开始显示背景图像。"
+            ]
+        },
+        {
+            "name": "background-clip",
+            "mode": ["border-box", "padding-box", "content-box", "text"],
+            "content": [
+                "从border区域（含border）开始向外裁剪背景。",
+                "从padding区域（含padding）开始向外裁剪背景。",
+                "从content区域开始向外裁剪背景。",
+                "从前景内容的形状（比如文字）作为裁剪区域向外裁剪，如此即可实现使用背景作为填充色之类的遮罩效果。"
+            ]
+        },
+        {
+            "name": "background-size",
+            "mode": ["<length>", "<percentage>", "auto", "cover", "contain"],
+            "content": [
+                "用长度值指定背景图像大小。不允许负值。",
+                "用百分比指定背景图像大小。不允许负值。",
+                "背景图像的真实大小。",
+                "将背景图像等比缩放到完全覆盖容器，背景图像有可能超出容器。",
+                "将背景图像等比缩放到宽度或高度与容器的宽度或高度相等，背景图像始终被包含在容器内。"
+            ]
+        }
+    ]
+}
